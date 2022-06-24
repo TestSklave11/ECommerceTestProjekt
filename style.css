@@ -1,0 +1,53 @@
+body {
+     background: #dcdecf url(img/body.gif) repeat-x;
+     color: #333;
+     margin: 0; padding: 0;
+     font: 100%/1.5 'lucida grande', verdana, sans-serif;
+     text-align: center; /* Zentriert den Inhalt für ältere Browser */
+    }
+
+#container {
+         margin: 0 auto; text-align: left;
+         width: 890px;
+         padding: 1px; border: 1px solid #474B52;
+         background: #fff;
+         position: relative;
+        }
+h1#kopfbereich {
+             margin: 0; padding: 0; border-bottom: 1px solid #fff;
+             background: #31363E url(img/kopfbereich.gif) repeat-x;
+             color: #fff;        
+            }
+h1#kopfbereich a {
+             display: block; width: 440px; height: 132px;
+             background: url(img/peruns-logo.gif) no-repeat;
+             text-indent: -9999px;
+            }            
+#hauptnavi {            
+                font: bold 15px georgia, serif;
+                letter-spacing: 2px;
+                background: #BBCC3B url(img/hauptnavi-klein.gif) repeat-x; color: #fff;
+               }
+#hauptnavi ul {               
+                padding: 0 25px; margin: 0;
+                list-style: none;
+                height: 38px; line-height: 38px;
+                background: url(img/hauptnavi-bg.gif) no-repeat;
+               }
+#hauptnavi li {
+                float: left;
+               }
+#hauptnavi li a {               
+                color: #fff;
+                text-decoration: none;
+                margin-right: 17px;
+               }
+#hauptnavi li a:hover, #hauptnavi .aktiv {               
+                text-decoration: underline;
+               }
+
+               .flex { 
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+            }
